@@ -52,7 +52,8 @@ TSFresh rolling window size
 
 Selecting the best_regressor takes a little bit of time on first run, but this time is reduced greatly on second runs through the removal of the worst performing regressors.
 
-The higher the number of days in the training data, the better our model scores. Here we see the predicted values versus the actual values from a regression model that has been trained on 720 days of training data with 4 hour intervals. 
+The higher the number of days in the training data, the better our model scores. Here we see the predicted values versus the actual values from a regression model that has been trained on 720 days of training data with 4 hour intervals. See my medium blogpost for more information about the performance of the model.
+
 ![image](https://user-images.githubusercontent.com/113235815/219980203-56757dcb-8f38-4348-ba62-97c13a7a3472.png)
 
 We can also plot the predicted values for this month versus the actual values to see how well our regression model performs. This is particularly useful to see the effect of the number of days in the training data
