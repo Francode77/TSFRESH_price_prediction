@@ -5,7 +5,7 @@ With this project, I demonstrate how the tsfresh library can be applied for buil
 
 The model will predict the price from the beginning of the current month until now. The model is trained on a user selected number of days, prior to the beginning of the current month.
 
-It can be used to predict the price with a regression model for a point in time, based on the lookahead value. This will predict the price for thisd value's next datapoint.
+It can be used to predict the price with a regression model for a point in time, based on the lookahead value. This will predict the price for this value's next datapoint.
 
 # Prerequisites 
 
@@ -69,4 +69,8 @@ We could improve this code to
 # Conclusion
 
 While this script is by all means not intended to predict the price of a crypto asset, it demonstrates the power of the tsfresh library.
+
+# Contributors
+
+This script was written by [url=https://www.linkedin.com/in/frank-trioen-21b71135]Frank Trioen[/url]
  
