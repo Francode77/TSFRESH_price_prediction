@@ -17,7 +17,8 @@ Install the necessary libraries from requirements.txt
 
 # Usage
 
-Run the file predict_price from a Jupyter notebook IDE
+Run the file `predict_price.ipynb` from a Jupyter notebook IDE
+The functions are stored in `functions.py`
 
 ## Choose the variables
 The following variables can be chosen freely:
@@ -27,6 +28,7 @@ The following variables can be chosen freely:
 - train_days: number of days of training data
 - init : do not (0) or (1) calculate the best regressor
 - lookahead : predict price for this number of datapoints in the future
+- verbose : whether to output the regression metrics during calculation
 
 ## Other variables:
 TSFresh rolling window size
