@@ -114,3 +114,6 @@ TSF/
 *.zip 
 *.pkl
 *.python
+
+# Images
+*.png
