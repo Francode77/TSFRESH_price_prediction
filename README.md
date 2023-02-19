@@ -57,9 +57,9 @@ The higher the number of days in the training data, the better our model scores.
 ![image](https://user-images.githubusercontent.com/113235815/219980203-56757dcb-8f38-4348-ba62-97c13a7a3472.png)
 
 <br>
-We can also plot the predicted values for this month versus the actual values to see how well our regression model performs. This is particularly useful to see the effect of the number of days in the training data
+We can also plot the predicted values for this month versus the actual values to see how well our regression model performs. This is particularly useful to see the effect of the number of days in the training data.
 
-<br>
+<br><br>
 
 ![image](https://user-images.githubusercontent.com/113235815/219980214-c4781397-b758-456a-9d14-83b4ac88dda1.png)
  
