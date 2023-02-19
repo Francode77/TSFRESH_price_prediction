@@ -109,7 +109,7 @@ def get_metrics(y_orig,y_pred,name,MAE,MSE,RMSE,R2, new_removed_regressors,verbo
 """
 With this function we search for the best regressor. The regressor with the smallest mean absolute error (MAE) is chosen.
 """
-def get_best_regressor(X_train_selected,X_test,y_train,y,test_start,ticker):   
+def get_best_regressor(X_train_selected,X_test,y_train,y,test_start,ticker,verbose):   
 
     # Create a metrics dictionary
     MAE={}
@@ -167,7 +167,7 @@ def get_best_regressor(X_train_selected,X_test,y_train,y,test_start,ticker):
                     y_pred=y_pred[test_start:].dropna()
                     y_pred = y_pred[y_pred.index.isin(y_orig.index)]
 
-                    MAE,MSE,RMSE,R2,new_removed_regressors=get_metrics(y_orig,y_pred,name,MAE,MSE,RMSE,R2, new_removed_regressors) 
+                    MAE,MSE,RMSE,R2,new_removed_regressors=get_metrics(y_orig,y_pred,name,MAE,MSE,RMSE,R2, new_removed_regressors,verbose) 
   
                 except:
                     continue
