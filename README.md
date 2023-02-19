@@ -13,7 +13,7 @@ This script was tested on Python 3.7.9
 
 # Installation
 
-Install the necessary libraries from requirements.txt
+Install the necessary libraries from `requirements.txt`
 
 # Usage
 
