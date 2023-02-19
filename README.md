@@ -72,5 +72,5 @@ While this script is by all means not intended to predict the price of a crypto 
 
 # Contributors
 
-This script was written by [url=https://www.linkedin.com/in/frank-trioen-21b71135]Frank Trioen[/url]
+This script was written by [Frank Trioen](https://www.linkedin.com/in/frank-trioen-21b71135)
  
