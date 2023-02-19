@@ -17,8 +17,8 @@ Install the necessary libraries from requirements.txt
 
 # Usage
 
-Run the file `predict_price.ipynb` from a Jupyter notebook IDE
-The functions are stored in `functions.py`
+Run the file `predict_price.ipynb` from a Jupyter notebook IDE<br>
+All necessary functions are stored in `functions.py`
 
 ## Choose the variables
 The following variables can be chosen freely:
