@@ -69,7 +69,4 @@ We could improve this code to
 # Conclusion
 
 While this script is by all means not intended to predict the price of a crypto asset, it demonstrates the power of the tsfresh library.
-
-
-
-![image](https://user-images.githubusercontent.com/113235815/219978114-45f0dcb4-4f11-45f2-95c3-74f65f350033.png)
+ 
