@@ -74,7 +74,7 @@ We could improve this code to
 
 # Conclusion
 
-While this script is by all means not intended to predict the price of a crypto asset, it demonstrates the power of the tsfresh library.
+While this script is by all means not intended to predict the price of a crypto asset, it clearly demonstrates the power of the tsfresh automated feature extraction library.
 
 # Contributors
 
