@@ -1,7 +1,7 @@
-# TSFRESH_price_prediction
+# TSFRESH price prediction for crypto
 A demonstration of the power of the tsfresh feature extraction library by trying to predict the price of an asset.
 
-With this project, I demonstrate how the tsfresh library can be applied for building a regression model on market data. The aim is to predict the value of the next data point in a given timeseries. 
+With this project, I show how the tsfresh library can be applied for building a regression model on market data. The aim is to predict the value of the next data point in a given timeseries. 
 
 The model will predict the price from the beginning of the current month until now. The model is trained on a user selected number of days, prior to the beginning of the current month.
 
