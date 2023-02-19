@@ -5,6 +5,8 @@ With this project, I demonstrate how the tsfresh library can be applied for buil
 
 The model will predict the price from the beginning of the current month until now. The model is trained on a user selected number of days, prior to the beginning of the current month.
 
+It can be used to predict the price with a regression model for a point in time, based on the lookahead value. This will predict the price for thisd value's next datapoint.
+
 # Prerequisites 
 
 This script was tested on Python 3.7.9
@@ -26,6 +28,12 @@ The following variables can be chosen freely:
 - init : do not (0) or (1) calculate the best regressor
 - lookahead : predict price for this number of datapoints in the future
 
+## Other variables:
+TSFresh rolling window size
+- max_window_size : max length of the rolled window for feature extraction
+- min_window_size : minimum number of days for a rolling window
+
+
 # Method
 
 1. Setting variables
@@ -40,9 +48,16 @@ The following variables can be chosen freely:
 
 # Results
 
-We can plot the predicted values for this month versus the actual values to see how well our regression model performs. The higher the number of days in the training data, the better our model will score. 
+Selecting the best_regressor takes a little bit of time on first run, but this time is reduced greatly on second runs through the removal of the worst performing regressors.
 
-We can also predict the value of the next datapoint.
+The higher the number of days in the training data, the better our model scores. Here we see the predicted values versus the actual values from a regression model that has been trained on 720 days of training data with 4 hour intervals. 
+![image](https://user-images.githubusercontent.com/113235815/219980203-56757dcb-8f38-4348-ba62-97c13a7a3472.png)
+
+We can also plot the predicted values for this month versus the actual values to see how well our regression model performs. This is particularly useful to see the effect of the number of days in the training data
+
+![image](https://user-images.githubusercontent.com/113235815/219980214-c4781397-b758-456a-9d14-83b4ac88dda1.png)
+
+We can also predict the value of a future datapoint.
 
 # Improvements
 
