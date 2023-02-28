@@ -63,7 +63,7 @@ We can also plot the predicted values for this month versus the actual values to
 
 ![image](https://user-images.githubusercontent.com/113235815/219980214-c4781397-b758-456a-9d14-83b4ac88dda1.png)
 <br><br>
-Please see my medium blogpost for more examples and information about the training and performance of the model.
+Please see [my medium blogpost](https://medium.com/p/9227438884db) for more examples and information about the training and performance of the model.
 <br><br>
 # Improvements
 
